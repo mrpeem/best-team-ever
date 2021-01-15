@@ -12,7 +12,7 @@
 
 const jwt = require("jsonwebtoken");
 const sqlite3 = require('sqlite3');
-const bcrypt = require('bcrypt');     
+const bcrypt = require('bcryptjs');     
 
 // use this library to interface with SQLite databases: https://github.com/mapbox/node-sqlite3
 const db = new sqlite3.Database('rest_api/database/users.db');

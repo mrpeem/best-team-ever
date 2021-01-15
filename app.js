@@ -6,7 +6,6 @@ const sqlite3 = require('sqlite3');
 const path = require('path');
 const morgan = require('morgan');
 const methodOverride = require('method-override');
-const session = require('express-session');
 const multer = require('multer');
 
 
